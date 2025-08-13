@@ -25,9 +25,9 @@ const projects = [
     category: "frontend",
     title: "Project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente rem assumenda consequuntur",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/alexx1.png",
+      "This project focuses on creating a responsive e-commerce site for Nike’s training shoes, offering an easy browsing and shopping experience for athletes with a clean, modern design.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }],
+    image: "/assets/work/training-store.png",
     live: "",
     github: "",
   },
@@ -36,8 +36,8 @@ const projects = [
     category: "fullstack",
     title: "Project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente rem assumenda consequuntur fugit pariatur nemo iste sequi velit",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Develop a sports center booking system using PHP, Bootstrap for the final project at the National University of Laos.",
+    stack: [{ name: "PHP" }, { name: "Bootstrap" }],
     image: "/assets/work/alexx1.png",
     live: "",
     github: "",
@@ -47,7 +47,7 @@ const projects = [
     category: "frontend",
     title: "Project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente rem assumenda consequuntur fugit pariatur nemo iste sequi velit",
+      "Established the Yamamoto Foundation scholarship website to provide financial support and educational opportunities for deserving students.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/alexx3.png",
     live: "",
@@ -149,7 +149,7 @@ const Work = () => {
             >
               {projects.map((project, index) => {
                 return (
-                  <SwiperSlide key={index} classNAme="w-full">
+                  <SwiperSlide key={index} className="w-full">
                     <div
                       className="h-[460px] relative group flex justify-center
                   items-center bg-pink-50/20"
