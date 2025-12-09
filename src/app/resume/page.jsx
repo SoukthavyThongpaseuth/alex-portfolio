@@ -31,7 +31,7 @@ const experience = {
     // },
     {
       company: "LailaoAppzap",
-      position: "Software Tester & IT Support",
+      position: "Software Tester & Support POS",
       duration: "2025",
     },
     {
